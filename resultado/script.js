@@ -5,7 +5,7 @@ const personName = localStorage.getItem("personName");
 if (personName) {
   document.getElementById("person-name").innerText = personName.toUpperCase();
 } else {
-  document.getElementById("person-name").innerText = "FULANO";
+  document.getElementById("person-name").innerText = "QUERIDO";
 }
 
 //

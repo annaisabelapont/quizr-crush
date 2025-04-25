@@ -1,7 +1,7 @@
 @import url(../style.css);
 
 h1 {
-  margin-bottom: 0.5rem;
+  margin: 1rem 0;
 }
 
 p {
@@ -43,5 +43,5 @@ a:hover {
 }
 
 img {
-  width: full;
+  max-height: 10rem;
 }

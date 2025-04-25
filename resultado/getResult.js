@@ -39,7 +39,7 @@ export function getResult(personName) {
     case 'maria luiza':
     case 'luiza souza':
       return {
-        love: 'Patriota',
+        love: 'Caminhoneiro',
         imgSrc: 'patriota.png'
       };
 
