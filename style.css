@@ -27,6 +27,37 @@ body {
   font-family: "Funnel Sans", sans-serif;
 }
 
+h1 {
+  font-family: "Sofia", sans-serif;
+  color: rgb(233, 142, 244);
+  text-align: center;
+}
+
+a.forward-or-back {
+  background: var(--purple);
+  border-radius: 0.5rem;
+  color: white;
+  text-decoration: none;
+  transition: background 0.35s ease;
+}
+
+a.forward-or-back:hover {
+  background-color: var(--purple-2);
+}
+
+a.forward-or-back:active {
+  background-color: var(--purple-3);
+}
+
+a.forward-or-back {
+  padding: 0.7rem 1rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0 0.5rem;
+}
+
 :root {
   --purple: rgb(128, 0, 145);
   --purple-2: rgb(163, 36, 180);

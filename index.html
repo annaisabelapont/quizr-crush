@@ -4,7 +4,31 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Quizr Crush</title>
-    <link rel="stylesheet" href="./index-page-style.css" />
+    <style>
+      @import url(../style.css);
+
+      h1 {
+        font-family: "Sofia", sans-serif;
+        font-size: 5.5rem;
+        font-weight: 100;
+      }
+
+      .description {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        text-align: center;
+        margin: 4rem 0 4rem 0;
+        max-width: 35rem;
+      }
+
+      a.forward-or-back {
+        padding: 2rem;
+        font-weight: 700;
+        font-size: medium;
+        box-shadow: 0 0.4rem 0.8rem rgba(0, 0, 0, 0.447);
+      }
+    </style>
   </head>
   <body>
     <h1 class="font-effect-neon">Quizr Crush</h1>
@@ -17,6 +41,6 @@
       </p>
     </div>
 
-    <a href="./teste/teste.html">COMECE O TESTE</a>
+    <a class="forward-or-back" href="./teste/nome/index.html">COMECE O TESTE</a>
   </body>
 </html>
