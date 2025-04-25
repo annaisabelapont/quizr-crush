@@ -1,0 +1,10 @@
+@import url(../../style.css);
+
+h2 {
+  font-size: larger;
+}
+
+h1 {
+  font-size: 4rem;
+  font-weight: 100;
+}
