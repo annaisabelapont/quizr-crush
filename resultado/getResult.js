@@ -5,19 +5,22 @@ export function getResult(personName) {
       return {
         love: "Elefante do PHP",
         imgSrc: "elefantePHP.png",
+        video: false,
       };
 
     case "dhuli":
       return {
         love: "Cachorrinho da figurinha",
         imgSrc: "cachorrinhoFig.png",
+        video: false,
       };
 
     case "giovanna":
     case "giovanna rodrigues":
       return {
-        love: "Bonnie",
+        love: "Bonnie do FNAF",
         imgSrc: "bonnie.png",
+        video: false,
       };
 
     case "karan":
@@ -26,6 +29,7 @@ export function getResult(personName) {
       return {
         love: "Shrek jogador",
         imgSrc: "shrekJogador.png",
+        video: false,
       };
 
     case "emanueli":
@@ -33,6 +37,7 @@ export function getResult(personName) {
       return {
         love: "Charles Leclerc",
         imgSrc: "charlesLeclerc.png",
+        video: false,
       };
 
     case "luiza":
@@ -41,6 +46,7 @@ export function getResult(personName) {
       return {
         love: "Caminhoneiro",
         imgSrc: "patriota.png",
+        video: false,
       };
 
     case "lucas":
@@ -48,13 +54,15 @@ export function getResult(personName) {
       return {
         love: "Nikolas Ferreira",
         imgSrc: "nikolasFerreira.png",
+        video: false,
       };
 
     case "luis miguel":
     case "luis":
       return {
-        love: "Pabllo Vittar",
-        imgSrc: "pablloVittar.png",
+        love: "Marisa Monte",
+        imgSrc: "marisaMonte.png",
+        video: false,
       };
 
     case "giovana":
@@ -62,6 +70,7 @@ export function getResult(personName) {
       return {
         love: "Jimin",
         imgSrc: "jimin.png",
+        video: false,
       };
 
     case "mariana":
@@ -69,18 +78,79 @@ export function getResult(personName) {
       return {
         love: "Padre Kelmon",
         imgSrc: "padreKelmon.png",
+        video: false,
       };
 
     case "arthur":
       return {
         love: "Freddie Mercury",
         imgSrc: "freddieMercury.png",
+        video: false,
       };
 
     default:
+      const aleatorio = Math.random();
+
+      if (aleatorio >= 0.85) {
+        return {
+          love: "Papagaio feliz",
+          imgSrc: "papagaio.mp4",
+          video: true,
+        };
+      }
+
+      else if (aleatorio >= 0.70) {
+        return {
+          love: "Hipismo",
+          imgSrc: "cavalo.mp4",
+          video: true,
+        };
+      } 
+
+      else if (aleatorio >= 0.69) {
+        return {
+          love: "Tralalelo Tralala",
+          imgSrc: "tralaleloTralala.mp4",
+          video: true,
+        };        
+      }
+      
+      else if (aleatorio >= 0.60) {
+        return {
+          love: "Emi",
+          imgSrc: "emi.png",
+          video: false,
+        };
+      } 
+      
+      else if (aleatorio >= 0.50) {
+        return {
+          love: "Berrante",
+          imgSrc: "berrante.mp4",
+          video: true,
+        };
+      }
+      
+      else if (aleatorio >= 0.35) {
+        return {
+          love: "Papagaio feliz",
+          imgSrc: "papagaio.mp4",
+          video: true,
+        };
+      }
+
+      else if (aleatorio >= 0.15) {
+        return {
+          love: "Saxofone",
+          imgSrc: "saxofone.mp4",
+          video: true,
+        };
+      }
+
       return {
         love: "Tralalelo Tralala",
-        imgSrc: "tralaleloTralala.png",
+        imgSrc: "tralaleloTralala.mp4",
+        video: true,
       };
   }
 }
