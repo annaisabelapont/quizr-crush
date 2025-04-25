@@ -1,0 +1,36 @@
+@import url(../style.css);
+
+h1 {
+  font-family: "Sofia", sans-serif;
+  font-size: 5.5rem;
+  font-weight: 400;
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  text-align: center;
+  margin: 4rem 0 4rem 0;
+  max-width: 35rem;
+}
+
+a {
+  background: var(--purple);
+  padding: 2rem;
+  border-radius: 0.5rem;
+  color: white;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: medium;
+  transition: background 0.35s ease;
+  box-shadow: 0 0.4rem 0.8rem rgba(0, 0, 0, 0.447);
+}
+
+a:hover {
+  background-color: var(--purple-2);
+}
+
+a:active {
+  background-color: var(--purple-3);
+}
