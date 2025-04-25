@@ -27,9 +27,9 @@ export function getResult(personName) {
     case "professor karan":
     case "karan luciano":
       return {
-        love: "Shrek jogador",
-        imgSrc: "shrekJogador.png",
-        video: false,
+        love: "Hipismo",
+        imgSrc: "cavalo.mp4",
+        video: true,
       };
 
     case "emanueli":
@@ -88,16 +88,23 @@ export function getResult(personName) {
         video: false,
       };
 
+    case "sophie":
+      return {
+        love: "Windson",
+        imgSrc: "windson.png",
+        video: false,
+      };
+
     default:
       const aleatorio = Math.random();
 
-      if (aleatorio >= 0.87) {
+      if (aleatorio >= 0.9) {
         return {
           love: "Papagaio feliz",
           imgSrc: "papagaio.mp4",
           video: true,
         };
-      } else if (aleatorio >= 0.74) {
+      } else if (aleatorio >= 0.79) {
         return {
           love: "Hipismo",
           imgSrc: "cavalo.mp4",
@@ -117,11 +124,11 @@ export function getResult(personName) {
         };
       } else if (aleatorio >= 0.5) {
         return {
-          love: "Berrante",
-          imgSrc: "berrante.mp4",
+          love: "Sapo olhando pro nada pensando em tudo",
+          imgSrc: "sapo.mp4",
           video: true,
         };
-      } else if (aleatorio >= 0.43) {
+      } else if (aleatorio >= 0.4) {
         return {
           love: "Eduardo",
           imgSrc: "eduardo.png",
