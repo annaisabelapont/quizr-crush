@@ -12,7 +12,15 @@ if (personName) {
 
 const result = getResult(personName);
 document.getElementById("love-name").innerText = result.love;
-document.getElementById("love-photo").src = `../img/${result.imgSrc}`;
+
+if (result.video) {
+  document.getElementById("love-video").src = `../img/${result.imgSrc}`;
+  document.getElementById("love-video").load();
+  document.getElementById("love-photo").style.display = "none";
+} else {
+  document.getElementById("love-photo").src = `../img/${result.imgSrc}`;
+  document.getElementById("love-video").style.display = "none";
+}
 
 //
 
