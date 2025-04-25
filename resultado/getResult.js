@@ -91,55 +91,49 @@ export function getResult(personName) {
     default:
       const aleatorio = Math.random();
 
-      if (aleatorio >= 0.85) {
+      if (aleatorio >= 0.87) {
         return {
           love: "Papagaio feliz",
           imgSrc: "papagaio.mp4",
           video: true,
         };
-      }
-
-      else if (aleatorio >= 0.70) {
+      } else if (aleatorio >= 0.74) {
         return {
           love: "Hipismo",
           imgSrc: "cavalo.mp4",
           video: true,
         };
-      } 
-
-      else if (aleatorio >= 0.69) {
+      } else if (aleatorio >= 0.69) {
         return {
           love: "Tralalelo Tralala",
           imgSrc: "tralaleloTralala.mp4",
           video: true,
-        };        
-      }
-      
-      else if (aleatorio >= 0.60) {
+        };
+      } else if (aleatorio >= 0.6) {
         return {
           love: "Emi",
           imgSrc: "emi.png",
           video: false,
         };
-      } 
-      
-      else if (aleatorio >= 0.50) {
+      } else if (aleatorio >= 0.5) {
         return {
           love: "Berrante",
           imgSrc: "berrante.mp4",
           video: true,
         };
-      }
-      
-      else if (aleatorio >= 0.35) {
+      } else if (aleatorio >= 0.43) {
+        return {
+          love: "Eduardo",
+          imgSrc: "eduardo.png",
+          video: false,
+        };
+      } else if (aleatorio >= 0.35) {
         return {
           love: "Papagaio feliz",
           imgSrc: "papagaio.mp4",
           video: true,
         };
-      }
-
-      else if (aleatorio >= 0.15) {
+      } else if (aleatorio >= 0.15) {
         return {
           love: "Saxofone",
           imgSrc: "saxofone.mp4",
