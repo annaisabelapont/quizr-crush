@@ -34,6 +34,7 @@ input:focus {
   outline-color: var(--purple-2);
 }
 
-a {
+button {
   align-self: flex-end;
+  border:none;
 }

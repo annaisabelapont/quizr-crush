@@ -10,10 +10,10 @@
     <h2>Para começar...</h2>
     <h1>Como podemos te chamar?</h1>
 
-    <form>
-      <input type="text" />
+    <form action="../musica/index.html" id="form">
+      <input id="personName" type="text" />
 
-      <a class="forward-or-back" href="../musica/index.html">
+      <button type="submit" id="nextPage" class="forward-or-back">
         PRÓXIMO
 
         <svg
@@ -31,7 +31,9 @@
           <path d="M5 12h14" />
           <path d="m12 5 7 7-7 7" />
         </svg>
-      </a>
+      </button>
     </form>
+
+    <script src="./script.js"></script>
   </body>
 </html>

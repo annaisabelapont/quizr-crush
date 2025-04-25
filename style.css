@@ -33,7 +33,7 @@ h1 {
   text-align: center;
 }
 
-a.forward-or-back {
+.forward-or-back {
   background: var(--purple);
   border-radius: 0.5rem;
   color: white;
@@ -41,21 +41,25 @@ a.forward-or-back {
   transition: background 0.35s ease;
 }
 
-a.forward-or-back:hover {
+.forward-or-back:hover {
   background-color: var(--purple-2);
 }
 
-a.forward-or-back:active {
+.forward-or-back:active {
   background-color: var(--purple-3);
 }
 
-a.forward-or-back {
+.forward-or-back {
   padding: 0.7rem 1rem;
 
   display: flex;
   align-items: center;
   justify-content: space-between;
   gap: 0 0.5rem;
+}
+
+button, a {
+  cursor: pointer;
 }
 
 :root {
